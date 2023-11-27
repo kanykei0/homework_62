@@ -2,8 +2,8 @@ import "./Contacts.css";
 
 const Contacts = () => {
   return (
-    <div className="container mt-4">
-      <h2 className="mb-4">Контакты</h2>
+    <div className="container mt-5">
+      <h2 className="mb-4 pt-5">Контакты</h2>
 
       <div className="row">
         <div className="col-md-6">

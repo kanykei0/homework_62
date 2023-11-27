@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import aliens from "../../assets/aliens.avif";
 
 const Home = () => {
@@ -12,9 +13,9 @@ const Home = () => {
             consequatur nemo quod nulla magni, accusamus officiis dolor, minus
             at tempore labore optio error officia aperiam omnis maxime.
           </p>
-          <a href="#" className="btn btn-dark p-main-btn fw-bold">
+          <Link to="/portfolio" className="btn btn-dark p-main-btn fw-bold">
             Get started
-          </a>
+          </Link>
         </div>
         <div className="col mt-4">
           <img src={aliens} alt="main-pic" className="w-100" />

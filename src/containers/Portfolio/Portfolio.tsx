@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import aliens from "../../assets/chell.webp";
 
 const Portfolio = () => {
   return (
@@ -62,6 +63,9 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="d-flex justify-content-center mt-3">
+          <img src={aliens} alt="aliens" className="chel-al" />
         </div>
       </div>
     </>

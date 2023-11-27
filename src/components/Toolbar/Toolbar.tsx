@@ -1,14 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import LOGO from "../../assets/ufo.png";
 
 const Toolbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           <img src={LOGO} alt="Product" className="ufo-logo" />
           UFO's
-        </a>
+        </Link>
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <NavLink to="/" className="nav-link text-reset">
