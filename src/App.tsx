@@ -6,6 +6,8 @@ import Portfolio from "./containers/Portfolio/Portfolio";
 import FilmsList from "./containers/FilmsList/FilmsList";
 import FindRing from "./containers/FindRing/FindRing";
 import UfoChat from "./containers/UfoChat/UfoChat";
+import Contacts from "./containers/Contacts/Contacts";
+import AboutUs from "./containers/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <header>
         <Toolbar />
       </header>
-      <main className="container-fluid">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/films" element={<FilmsList />} />
           <Route path="/game" element={<FindRing />} />

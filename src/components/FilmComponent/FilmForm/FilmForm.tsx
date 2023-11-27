@@ -36,7 +36,7 @@ const FilmForm: React.FC<Props> = ({ onAddFilm }) => {
         />
       </div>
       <div className="col">
-        <button className="btn btn-success" type="submit">
+        <button className="btn btn-dark" type="submit">
           Add
         </button>
       </div>

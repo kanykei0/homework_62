@@ -70,11 +70,13 @@ const UfoChat = () => {
   }, []);
 
   return (
-    <div className="inner-container">
-      <Preloader show={preloader} />
-      <Messages messages={messages} />
-      <div ref={toBotom}>
-        <MessageForm />
+    <div className="bg-dark">
+      <div className="inner-container">
+        <Preloader show={preloader} />
+        <Messages messages={messages} />
+        <div ref={toBotom}>
+          <MessageForm />
+        </div>
       </div>
     </div>
   );

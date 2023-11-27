@@ -7,8 +7,10 @@ const Home = () => {
         <div className="col ps-md-5 mt-xl-5 pt-xl-5">
           <h1 className="fw-bold mt-5 pt-xl-2">Work at the speed of thought</h1>
           <p className="fs-main-desc mb-4 mb-md-5 mt-md-4 pt-2 pb-lg-2">
-            Tools, tutorials, design and innovation experts, all in one place!
-            <br /> The most intuitive way to imagine your next user experience.
+            Gpsum dolor sit amet consectetur adipisicing elit. Iste, laboriosam!
+            <br /> Velit magnam quae ratione voluptatum rem nihil quidem
+            consequatur nemo quod nulla magni, accusamus officiis dolor, minus
+            at tempore labore optio error officia aperiam omnis maxime.
           </p>
           <a href="#" className="btn btn-dark p-main-btn fw-bold">
             Get started
